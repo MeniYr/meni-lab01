@@ -7,7 +7,7 @@ pipeline {
                 parallel(
 
                     a: {
-                        sleep(10),
+                        sleep(10)
                         echo 'git clone'
                     },
                     b: {
