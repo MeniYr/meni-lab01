@@ -23,6 +23,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo 'deploy'
+                echo 'git Jenkings'
             }
         }
     }
