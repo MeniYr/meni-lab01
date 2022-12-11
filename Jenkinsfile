@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('git clone & build') {
             steps {
-                                    sleep(10)
                 parallel(
 
                     a: {
+                        sleep(10),
                         echo 'git clone'
                     },
                     b: {
