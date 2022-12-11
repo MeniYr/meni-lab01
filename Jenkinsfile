@@ -8,6 +8,7 @@ pipeline {
 
                     a: {
 //                         sleep(10)
+//                         sleep(5)
                         echo 'git clone'
                     },
                     b: {
